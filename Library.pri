@@ -1,0 +1,1 @@
+RESOURCES += Library.qrc

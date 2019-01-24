@@ -1,6 +1,7 @@
 import QtQuick 2.9
-import QtQuick.Window 2.2
-import QtQuick.Layouts 1.3
+import QtQuick.Window 2.11
+
+import "Library"
 
 Window {
     visible: true
@@ -8,7 +9,7 @@ Window {
     height: 480
     title: qsTr("Hello World")
 
-    Text {
-      text: "Hello"
+    LibraryItem {
+        id: item1
     }
 }
