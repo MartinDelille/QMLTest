@@ -8,26 +8,7 @@ Window {
     height: 480
     title: qsTr("Hello World")
 
-    ColumnLayout {
-//        spacing: 2
-//        Layout.minimumHeight: 40
-
-        Rectangle {
-            width: 400
-            height: 100
-
-            Text {
-                text: qsTr("text in main.qml")
-            }
-        }
-
-        Rectangle {
-            width: 400
-            height: 100
-
-            Pouet {
-                id: pouet
-            }
-        }
+    Text {
+      text: "Hello"
     }
 }
